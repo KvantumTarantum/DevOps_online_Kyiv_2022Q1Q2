@@ -24,3 +24,17 @@ Question marks there for a reason, because NAT game same IP to both instances. A
 WORK WITH VAGRANT
 
 ![](images/date.png)
+
+To create my own box file i used base Ubuntu box, downloaded with command:
+
+```bat
+vagrant box add %name_of_the_box% %url_to_box%
+```
+
+after that you could deploy that box, connect to it, make some changes e.g. install apache, or nginx, then stop your VM and make box file with web server installed with this command:
+
+```bat
+vagrant package
+```
+
+this command will run a process of creating box file with a name - package.box
