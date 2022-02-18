@@ -23,3 +23,4 @@ Question marks there for a reason, because NAT game same IP to both instances. A
 
 WORK WITH VAGRANT
 
+![](images/date.png)
